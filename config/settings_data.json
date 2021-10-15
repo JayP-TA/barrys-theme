@@ -15,6 +15,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Welcome to our store",
               "color_scheme": "background-1",
@@ -34,7 +35,7 @@
           "color_scheme": "accent-1",
           "logo": "shopify:\/\/shop_images\/Yellow_and_Black_Vintage_Beauty_Logo_copy.png",
           "logo_width": 140,
-          "logo_position": "top-left",
+          "logo_position": "middle-left",
           "menu": "main-menu",
           "show_line_separator": true,
           "enable_sticky_header": true
