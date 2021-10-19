@@ -37,6 +37,24 @@
         "show_text_below": true
       }
     },
+    "scroll_prompt": {
+      "type": "scroll-prompt",
+      "blocks": {
+        "text": {
+          "type": "scrolltext",
+          "settings": {
+            "scroll-text": "Discover more"
+          }
+        },
+        "icon": {
+          "type": "scrollicon"
+        }
+      },
+      "block-order": [
+        "text",
+        "icon"
+      ]
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -181,6 +199,7 @@
   },
   "order": [
     "image_banner",
+    "scroll_prompt",
     "rich_text",
     "featured_products",
     "collage",
