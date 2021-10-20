@@ -40,20 +40,24 @@
     "scroll_prompt": {
       "type": "scroll-prompt",
       "blocks": {
-        "text": {
+        "31c0d47e-a337-447a-9941-688591f711b1": {
           "type": "scrolltext",
           "settings": {
-            "scroll-text": "Discover more"
+            "scrolltext": "Discover more"
           }
         },
-        "icon": {
-          "type": "scrollicon"
+        "150a70fe-4d12-406f-9e8b-23e8629f9f87": {
+          "type": "scrollicon",
+          "settings": {
+          }
         }
       },
-      "block-order": [
-        "text",
-        "icon"
-      ]
+      "block_order": [
+        "31c0d47e-a337-447a-9941-688591f711b1",
+        "150a70fe-4d12-406f-9e8b-23e8629f9f87"
+      ],
+      "settings": {
+      }
     },
     "rich_text": {
       "type": "rich-text",
