@@ -2,12 +2,12 @@
  {% for block in section.blocks %}
     {% case block.type %}
 
-      {% when 'scrolltext' %}
+      {% when 'text' %}
         <div class="prompt-text h3 center" {{ block.shopify_attributes }}> 
-           {{ block.settings.scrolltext | escape }} 
+           {{ block.settings.prompttext | escape }} 
         </div>
 
-      {% when 'scrollicon' %}
+      {% when 'icon' %}
         <a href="#" {{ block.shopify_attributes }}>
           <div id="mouse-scroll">
             <div class="mouse">
@@ -31,12 +31,12 @@
   "max_blocks": 2,
   "blocks": [
     {
-      "type": "scrolltext",
       "name": "Scroll Down Text",
+      "type": "text",
       "settings": [
         {
           "type": "text",
-          "id": "scrolltext",
+          "id": "prompttext",
           "label": "Prompt Text",
           "default": "Discover more"
           
@@ -44,19 +44,22 @@
       ]
     },
     {
-      "type": "scrollicon",
-      "name": "Scroll Down Icon"
+      "name": "Scroll Down Icon",
+      "type": "icon"
     }
   ],
-  "default": {
-    "blocks": [
-      {
-        "type": "scrolltext"
-      },
-      {
-        "type": "scrollicon"
-      }
-    ]
-  }
+  "presets": [
+    {
+      "name": "Default Scroll Prompt",
+      "blocks": [
+        {
+          "type": "text"
+        },
+        {
+          "type": "icon"
+        }
+      ]
+    }
+  ]
 }
 {% endschema %}
