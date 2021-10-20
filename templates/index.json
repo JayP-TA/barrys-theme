@@ -43,17 +43,21 @@
         "scrolltext": {
           "type": "text",
           "settings": {
-            "prompttext": "Discover more"
+            "prompttext": "Discover all"
           }
         },
         "icon": {
-          "type": "icon"
+          "type": "icon",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "scrolltext",
         "icon"
-      ]
+      ],
+      "settings": {
+      }
     },
     "rich_text": {
       "type": "rich-text",
