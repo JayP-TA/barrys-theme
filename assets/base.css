@@ -2304,3 +2304,25 @@ details-disclosure > details {
     stroke: CanvasText;
   }
 }
+
+.responsive {
+  display: inline-block;
+}
+
+@media screen and (min-width: 990px) {
+  .responsive {
+    display: none !important;
+  }
+
+}
+
+.responsive-inverted {
+  display: none;
+}
+
+@media screen and (min-width: 990px) {
+  .responsive-inverted {
+    display: inline-block;
+  }
+
+}
