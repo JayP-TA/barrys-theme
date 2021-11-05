@@ -211,8 +211,7 @@
                                 {% if option.selected_value == value %}checked{% endif %}
                           >
                               {% if product.variants[forloop.index0].metafields.color.value and option.name == "Color" %}
-                            <label for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}" style="background-color: {{ product.variants[forloop.index0].metafields.color.value }}">
-                              {{ value }}
+                            <label id="color-swatch" for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}" style="background-color: {{ product.variants[forloop.index0].metafields.color.value }}">
                             </label>
                             {% else %}
                             <label for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}">
