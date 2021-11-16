@@ -1,7 +1,39 @@
-.banner {
-  display: flex;
+.main-hero {
   position: relative;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: 1fr 4fr;
+  grid-template-areas:
+      '. content .'
+      '. . .';
+  background-size: cover;
+  height: 60rem;
+  padding: 5rem 1rem 1rem;
+  justify-content: space-between;
+  height: 70vh;
+}
+
+.hero__content {
+  --flow-space: 4rem;
+  grid-area: content;
+}
+
+.hero__subheading {
+  color: white;
+  align-self: end;
+}
+
+.hero__heading {
+  color: #59182F;
+  font-weight: 200;
+  font-size: 6rem;
+  margin: 0;
+  text-align: center;
+  align-self: top;
+}
+
+.hero__buttons > * {
+  background-color: red;
 }
 
 @media screen and (max-width: 749px) {

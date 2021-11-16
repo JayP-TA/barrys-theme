@@ -398,7 +398,7 @@
       </nav>
     {%- endif -%}
 
-    <div class="header__icons">
+    <div class="header__search__container">
 
         {%- if settings.predictive_search_enabled -%}
           <predictive-search class="search-modal__form" data-loading-text="{{ 'accessibility.loading' | t }}">
@@ -521,7 +521,9 @@
           </div>
         </details>
       </details-modal>
+    </div>
 
+    <div class="header__icons">
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
           {% render 'icon-account' %}
@@ -556,6 +558,7 @@
         {%- endif -%}
       </a>
     </div>
+
   </header>
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
 
