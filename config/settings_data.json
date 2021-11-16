@@ -34,7 +34,7 @@
         "settings": {
           "color_scheme": "accent-1",
           "logo": "shopify:\/\/shop_images\/Yellow_and_Black_Vintage_Beauty_Logo_copy.png",
-          "logo_width": 140,
+          "logo_width": 250,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "show_line_separator": true,
