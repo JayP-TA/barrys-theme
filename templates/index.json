@@ -13,7 +13,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "SHOP FURNITURE",
+            "button_label_1": "ALL CUSTOM FURNITURE",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -24,7 +24,7 @@
         "fe70d06f-99d6-4aa4-a0e8-cafead3b8e03": {
           "type": "text",
           "settings": {
-            "text": "Transform your house."
+            "text": "M"
           }
         }
       },
