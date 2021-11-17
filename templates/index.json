@@ -66,8 +66,9 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+            "image": "shopify:\/\/shop_images\/yellow-pillow-bedside-table.jpg",
+            "title": "Nature's Rest",
+            "text": "<p>Nature's Rest is our line of bedroom decoration focused in giving a beautifully peaceful atmosphere to the most important room in the house.<\/p>"
           }
         },
         "05040fb0-ea11-478b-b498-ed194cb2c0d5": {
