@@ -87,14 +87,14 @@
         "05040fb0-ea11-478b-b498-ed194cb2c0d5"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "Collections",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "background_style": "secondary",
+        "button_label": "See Collections",
         "button_link": "",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
       }
     },
     "scroll_prompt": {
