@@ -24,12 +24,14 @@
 }
 
 .hero__heading {
-  color: #59182F;
-  font-weight: 200;
+  color: black;
+  font-weight: 700;
   font-size: 6rem;
   margin: 0;
   text-align: center;
   align-self: top;
+  text-decoration: underline;
+  text-decoration-style: 2px solid red;
 }
 
 .hero__buttons > * {
