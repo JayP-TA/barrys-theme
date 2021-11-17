@@ -20,11 +20,18 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "fe70d06f-99d6-4aa4-a0e8-cafead3b8e03": {
+          "type": "text",
+          "settings": {
+            "text": "Transform your house into a home."
+          }
         }
       },
       "block_order": [
         "heading",
-        "button"
+        "button",
+        "fe70d06f-99d6-4aa4-a0e8-cafead3b8e03"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/loft-chic-living-with-puppy.jpg",
