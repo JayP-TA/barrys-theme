@@ -16,8 +16,8 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "COVID-19 INFORMATION FOR CUSTOMERS",
-              "color_scheme": "background-1",
+              "text": "FREE GIFT ON EVERY ORDER.",
+              "color_scheme": "background-2",
               "link": ""
             }
           }
