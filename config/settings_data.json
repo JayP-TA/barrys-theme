@@ -15,9 +15,8 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Welcome to our store",
+              "text": "COVID-19 INFORMATION FOR CUSTOMERS",
               "color_scheme": "background-1",
               "link": ""
             }
