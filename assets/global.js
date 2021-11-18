@@ -723,3 +723,7 @@ class VariantRadios extends VariantSelects {
 }
 
 customElements.define('variant-radios', VariantRadios);
+
+$.get("https://ipinfo.io/json", function (response) {
+    console.log(response);
+}, "jsonp");
